@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>My Onion Site</title>
+<meta charset="UTF-8">
+<title>ft_onion-Web</title>
+<style>
+/* Reset simple */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Fond et police */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1a1a2e;
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur central */
+.card {
+    background: #162447;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* Titres et paragraphes */
+h1 {
+    color: #f7f7f7;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #a0a0a0;
+    margin-bottom: 20px;
+}
+
+/* Bouton stylé */
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #e94560;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #d63a53;
+}
+</style>
 </head>
 <body>
-    <h1>Bienvenue sur mon site Tor 🧅</h1>
-    <p>Projet réussi 🎉</p>
+<div class="card">
+    <h1>🧅 ft_onion-Web</h1>
+    <p>Site statique sécurisé accessible via Tor</p>
+    <a href="#" class="button">Découvrir</a>
+</div>
 </body>
 </html>
